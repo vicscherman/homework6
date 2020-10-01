@@ -1,0 +1,28 @@
+
+.navbar{
+    height:75px;
+    color: white;
+}
+
+.fiveday{
+
+    height:250px;
+    width:200px;
+    border-radius: 20px;
+    background-color: rgb(78, 78, 243);
+    border: 1px solid black;
+    float: left;
+    margin: 20px;
+    box-shadow:  0 8px 3px rgb(10, 10, 10);
+    list-style-type: none;
+    
+
+}
+
+.weatherbox{
+    list-style-type: none;
+}
+
+#shrek{
+    list-style-type: none;
+}

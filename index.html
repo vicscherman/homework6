@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-dark bg-dark display-1 justify-content-center">
+        <h1>Weather Dashboard </h1>
+   </nav>
+  <div class="maincontainer">
+    <div class="row">
+    <div class="cityname col-3">
+        <h1>Search for a City:</h1>
+        <form class="form-inline">
+            <input id="searchcity" class="form-control mr-sm-2" type="search" placeholder="Enter City Name" aria-label="Search">
+            <button onClick="addCity(event)" class="btn-primary  my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <div class="list-group" id="citylist">
+            
+        </div>
+    </div>
+
+
+<div class="weather info col-9">
+
+  <div class= "mainweather">
+    <div class="jumbotron main " style="background-color:#f4fafa">
+        <h1 class="display-4" id="cityDate"></h1>
+        <img id="weathericon"/>
+        <br>
+        <ul class="weatherbox">
+            <p>Temperature:
+            <li id="temp"></li>
+            </p>
+            <br>
+            <li >Humidity:</li>
+            <li id="hum"></li>
+            <br>
+            <li>Wind Speed:</li>
+            <li id="wind"></li>
+            <br>
+            <li >UV Index:</li>
+            <li id="uv"></li>
+            
+            
+        </ul>
+       
+    </div>
+    
+  </div>  
+  <h2>5-Day Forecast:</h2> 
+  <div id="Shrek">
+       
+  </div>
+  
+ 
+  
+  
+
+
+</div>
+
+
+
+
+
+
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>   
+<script type="text/javascript" src="logic.js"></script>   
+</body>
+</html>
